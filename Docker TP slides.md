@@ -13,6 +13,14 @@ Récupérer les slides sur <https://github.com/nagarian/cellenza_docker>
 
 ---
 
+# Terminologie
+
+1. docker cli -> interface en ligne de commande
+2. `Dockerfile` -> nom du fichier permettant de créer un nouveau container
+3. `docker-compose.yml` -> nom du fichier permettant de déclarer l'ensemble des ressources composant notre application
+
+---
+
 # Docker : Commande de bases
 
 - `docker help` : ...
@@ -27,4 +35,7 @@ Récupérer les slides sur <https://github.com/nagarian/cellenza_docker>
 
 # Docker-compose : Commande de bases
 
-- ``
+Lien utile : <https://docs.docker.com/compose/reference/overview/>
+
+- `docker-compose up -d` : créer et démarrer l'ensemble des services définis dans `docker-compose.yml`
+- `docker-compose down` : arrête et détruit l'ensemble des services définis dans `docker-compose.yml`
