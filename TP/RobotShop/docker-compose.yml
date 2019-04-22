@@ -1,0 +1,8 @@
+version: '2'
+
+services: 
+  robotshop:
+
+  shoxxbot:
+    volumes: 
+    - /etc/localtime:/etc/localtime:ro
