@@ -27,3 +27,7 @@ Un recueil de TP et de samples :
 <https://docs.docker.com/samples/>
 
 Et pour ceux qui liront jusqu'ici et qui ont finis les 2 TP. Essayais de résoudre le challenge de sécurité `RobotShop` ;)
+
+Merci à tous pour votre participation !
+
+Si vous souhaitez vous pouvez retrouver [le projet CFlix originel ici](https://github.com/nagarian/cflix)
