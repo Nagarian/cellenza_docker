@@ -9,6 +9,8 @@ NB: pour les containers `CFlix` et `CFlix.ImageViewer`, c'est de l'asp .net core
 
 NB2: il n'y a pas de pièges concernant la composition des Dockerfiles, pour savoir comment les remplir on respecte le dicton : **RTFM !** -> <https://hub.docker.com>
 
+NB3: Pour seed les base de données : `docker exec -it <nom du container cflix> dotnet CFlix.dll database update all`
+
 *Ci dessous se trouve le README original à titre indicatif*
 
 ---
@@ -67,3 +69,14 @@ Cela avait plusieurs objectifs. Le premier étant de répartir les chances des p
 Pour reproduire ce comportement, il faudra donc successivement passer la variable `CFLIX__STAGE` de 1 à 3 et faire une mise à jour de la base de donnée `postgre`, pour y insérer les nouvelles épreuves.
 
 NB : Retourner en arrière dans les phases ne désactivera pas les challenges, même en effectuant une nouvelle migration des BDD (Il faudra au préalable supprimer les BDDs pour que ce soit le cas)
+
+## Update database
+
+To update the database with migration and feed it with datas, you can use the following commands :
+
+```bash
+dotnet CFlix.dll database update all
+# if you want to update them independently :
+dotnet CFlix.dll database update mysql
+dotnet CFlix.dll database update postgres
+```
