@@ -25,3 +25,5 @@ Documentation de référence sur la syntaxe du docker-compose.yml : <https://doc
 
 Un recueil de TP et de samples :
 <https://docs.docker.com/samples/>
+
+Et pour ceux qui liront jusqu'ici et qui ont finis les 2 TP. Essayais de résoudre le challenge de sécurité `RobotShop` ;)
