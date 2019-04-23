@@ -1,0 +1,17 @@
+version: '3'
+
+services:
+  reverse-proxy:
+
+  cflix:
+    environment:
+    - CFLIX__STAGE=3
+    - CFLIX__USELDAP=false
+
+  postgres:
+
+  mysql:
+
+  redis:
+
+  cflix.imageviewer:
