@@ -15,6 +15,8 @@ Pour cette partie, plusieurs options sont à votre disposition :
 
 Pour les points **2.** et **3.**, vous serez en autonomie et le but commun des deux TP est de vous faire pratiquer l'écriture de `Dockerfile` et de `docker-compose.yml`
 
+Documentation officielle de toutes les images utilisés : <https://hub.docker.com>
+
 Documentation de référence sur la syntaxe du Dockerfile : <https://docs.docker.com/engine/reference/builder/>
 
 Documentation de référence sur la syntaxe du docker-compose.yml : <https://docs.docker.com/compose/compose-file/>

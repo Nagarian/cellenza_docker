@@ -7,7 +7,7 @@ Il faut compléter les Dockerfiles et le docker-compose.yml afin de respecter le
 
 NB: pour les containers `CFlix` et `CFlix.ImageViewer`, c'est de l'asp .net core 2.0 qu'il faut pour les faire fonctionner !
 
-NB2: il n'y a pas de pièges concernant la composition des Dockerfiles, pour savoir comment les remplir on respecte le dicton : **RTFM !** -> <http://hub.docker.com>
+NB2: il n'y a pas de pièges concernant la composition des Dockerfiles, pour savoir comment les remplir on respecte le dicton : **RTFM !** -> <https://hub.docker.com>
 
 *Ci dessous se trouve le README original à titre indicatif*
 
