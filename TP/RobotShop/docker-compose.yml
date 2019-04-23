@@ -4,5 +4,5 @@ services:
   robotshop:
 
   shoxxbot:
-    volumes: 
-    - /etc/localtime:/etc/localtime:ro
+    # volumes: 
+    # - /etc/localtime:/etc/localtime:ro
