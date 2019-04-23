@@ -1,5 +1,5 @@
-FROM php:5-apache
+FROM php:apache
 
-# mettre les instructions manquante ici
+COPY src/ /var/www/html/
 
-# RUN chown www-data:www-data -R /var/www/html/challengeUtils
+RUN chown www-data:www-data -R /var/www/html/challengeUtils
