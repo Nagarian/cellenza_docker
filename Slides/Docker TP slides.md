@@ -28,6 +28,7 @@ Récupérer les slides sur <https://github.com/nagarian/cellenza_docker>
 - `docker build -t <image>`: builder une image à partir du Dockerfile du dossier courant
 - `docker run -it <image>:<version> <command>` : lancer un container avec une commande et s'y attacher
   - `docker run -it nginx:alpine sh`
+- `docker exec -it <nom du container> sh` : commande de survie (lance un shell dans le container)
 - `docker ps -a` : lister les containers crée
 - `docker stop <nom du container>` : arrêter un container
 - `docker rm` : suprrimer un container arrêté
